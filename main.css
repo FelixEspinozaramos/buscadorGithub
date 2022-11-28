@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgba(0, 0, 0, 0.109);
+    color: #ffff;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marco-1{
+    width:900px;
+    height: 600px;
+    background-color: rgb(9, 9, 44);
+    padding: 40px;
+}
+
+.buscar{
+    padding: 5px;
+    margin-top: 15px;
+    border: solid 2px white;
+    width: 790px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buscar h3{
+    margin: 5px;
+}
+
+
+
+.marco-2 {
+    width: 800px;
+    margin-top: 15px;
+    display: flex;
+    border: solid 2px white;
+    border-radius: 10px;
+}
+
+.marco-2 .imagen{
+    margin: 5px;
+    width: 180px;
+    height: 320px;
+    display: grid;
+    justify-content: center;
+}
+
+.marco-2  .imagen img{
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.marco-2 .datos{
+    width: 80%;
+    height: 350;
+    margin: 5px;
+}
+
+.marco-2 .datos .info{
+    width: 80%;
+    margin: 30px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.marco-2 .datos .info h5{
+    margin-bottom: 10px;
+}
+
+.marco-2 .datos .info-2{
+    margin: 30px 10px 10px 10px;
+}
+
+.marco-2 .datos .info-2 p{
+    margin-bottom: 20px;
+}
+
+.marco-2 .datos .portafolio table{
+    width: 100%;
+    padding: 10px;
+    background: rgb(18, 18, 71);
+    border-radius: 10px;
+}
+
+.marco-2  .datos .portafolio table td{
+    width: 33.33%;
+}
